@@ -1,0 +1,114 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.main{
+   
+
+    
+    width: 800px;
+    border: 1px solid #8edf0c;
+    border-radius: 20px;
+    box-shadow: 10px 10px 2px rgb(221, 89, 89);
+}
+@media only screen and (max-width: 800px){
+    .main{
+       min-width: 250px;
+    }
+}
+
+.title{
+    padding: 10px;
+    background-color:#1e99eb;
+    color: #ffffff;
+    margin: 0 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.question{
+    
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 1.0em;
+}
+table{
+    
+    margin-left: 40px;
+    width: 280px;
+   
+}
+td:hover{
+    cursor: pointer;
+    background-color: #d6e141;
+    color: #ffffff;
+}
+span{
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+td{
+    background-color: #808080;
+    color: #ffffff;
+    border-radius: 20px;
+    padding-left: 10px;
+    border: 1px solid #000000;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+button:hover{
+    color: #ffffff;
+    background-color: #4169e1;
+}
+button{
+    
+    background-color: lightblue;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.2em;
+    float: right;
+    margin-right: 20px;
+    padding: 10px;
+}
+h3{
+    color:red;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+    font: 700;
+    font-size: 1.3em;
+}
+.container-result{ 
+    text-align: center;
+    padding: 30px;
+    font-weight: 900;
+    font-size: 2em;
+}
+img{
+    background-color: cyan;
+    border-radius: 20px;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: 1px solid black;
+}
+
